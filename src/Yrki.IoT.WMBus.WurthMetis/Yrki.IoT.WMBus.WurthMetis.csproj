@@ -5,6 +5,18 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+
+  <PropertyGroup>
+    <OutputType>library</OutputType>
+    <TargetFramework>netstandard2.1</TargetFramework>
+    <PackageId>Yrki.IoT.WMBus.WurthMetis</PackageId>
+    <Version>0.0.2</Version>
+    <Authors>Yrki</Authors>
+    <Company>Yrki</Company>
+    <PackageDescription>Library for reading WMBus module Würth Elektronik Metis-II</PackageDescription>
+    <RepositoryUrl>https://github.com/yrki/Yrki.IoT.WMBus.WurthMetisUsb</RepositoryUrl>
+  </PropertyGroup>
+
   <ItemGroup>
     <PackageReference Include="System.IO.Ports" Version="7.0.0" />
   </ItemGroup>
