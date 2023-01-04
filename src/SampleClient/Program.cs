@@ -1,8 +1,4 @@
-# Yrki.IoT.WMBus.WurthMetisUsb
-A small Library in C# for reading WMBus-data from the Würth Metis II Usb-stick.
-
-## Usage
-```csharp
+﻿using Yrki.IoT.WMBus.WurthMetis;
 
 // Set up the port and baudrate
 var port = "COM3"; // The port to use.
@@ -21,9 +17,6 @@ metisII.IntializeModule(port, baudRate);
 
 // Start the reader
 Task.Run(() => metisII.ListenToMessages(port, baudRate, new CancellationToken()));
-```
-## Work in progress
-This library is still a work in progress.
 
-## License
-This project is allowed to use for personal use only. If you want to use it for commercial use or in public sector, please contact me at: thomas@yrki.no
+Console.WriteLine("Waiting for messages. Press any key to exit.");
+Console.ReadKey();
