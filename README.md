@@ -1,5 +1,6 @@
 # Yrki.IoT.WMBus.WurthMetisUsb
 A small Library in C# for reading WMBus-data from the Würth Metis II Usb-stick.
+https://www.we-online.com/en/components/products/USB_RADIO_STICK_METERING
 
 ## Usage
 ```csharp
