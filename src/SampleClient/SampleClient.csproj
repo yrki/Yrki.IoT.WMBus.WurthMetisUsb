@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\Yrki.IoT.WMBus.WurthMetis\Yrki.IoT.WMBus.WurthMetis.csproj" />
+    <ProjectReference Include="..\Yrki.IoT.WMBus.IMSTim871A\Yrki.IoT.WMBus.IMSTim871A.csproj" />
   </ItemGroup>
 
   <PropertyGroup>
